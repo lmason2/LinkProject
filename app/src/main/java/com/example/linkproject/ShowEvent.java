@@ -1,5 +1,12 @@
 package com.example.linkproject;
-
+/*
+  ShowEvent.java
+  Luke Mason & JD Gruber
+  CPSC 312 Final Project
+  Link
+  When the user clicks on an event, this activity
+  will start and show the event's details
+*/
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -26,7 +33,7 @@ public class ShowEvent extends AppCompatActivity {
             String descriptionString = getString(R.string.description) + " " + intent.getStringExtra("Description");
             String dateString = getString(R.string.date) + " " + intent.getStringExtra("Date");
             String startString = getString(R.string.start) + " " + intent.getStringExtra("Start");
-            String endString = getString(R.string.end) + " " + git aintent.getStringExtra("End");
+            String endString = getString(R.string.end) + " " + intent.getStringExtra("End");
             title.setText(intent.getStringExtra("Title"));
             location.setText(locationString);
             description.setText(descriptionString);

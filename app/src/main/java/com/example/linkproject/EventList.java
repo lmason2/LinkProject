@@ -1,5 +1,14 @@
 package com.example.linkproject;
 
+/*
+  EventList.java
+  Luke Mason & JD Gruber
+  CPSC 312 Final Project
+  Link
+  Class to show the events in the database
+  as a list view
+*/
+
 import android.content.Intent;
 import android.os.Bundle;
 

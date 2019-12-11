@@ -19,100 +19,57 @@
         android:gravity="center"
         />
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/Description"
+        android:text="@string/description"
+        android:textSize="40sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="2"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/description"
-            android:textSize="40sp"/>
-        <TextView
-            android:id="@+id/Description"
-            android:text="@string/na"
-            android:textSize="40sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-    </LinearLayout>
+        android:gravity="center"
+        />
 
-    <LinearLayout
+
+    <TextView
+        android:id="@+id/Location"
+        android:text="@string/location"
+        android:textSize="30sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/location"
-            android:textSize="30sp"/>
-        <TextView
-            android:id="@+id/Location"
-            android:text="@string/na"
-            android:textSize="30sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-    </LinearLayout>
+        android:gravity="center"
+        />
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/Date"
+        android:text="@string/date"
+        android:textSize="30sp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/date"
-            android:textSize="30sp"/>
-        <TextView
-            android:id="@+id/Date"
-            android:text="@string/na"
-            android:textSize="30sp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
-    </LinearLayout>
+        android:gravity="center"
+        />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/Start"
+        android:text="@string/start"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/start"
-            android:textSize="30sp"/>
-        <TextView
-            android:id="@+id/Start"
-            android:text="@string/na"
-            android:textSize="30sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-    </LinearLayout>
+        android:gravity="center"
+        />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <TextView
+        android:id="@+id/End"
+        android:text="@string/end"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
         android:layout_weight="1"
-        android:gravity="center">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/end"
-            android:textSize="30sp"/>
-        <TextView
-            android:id="@+id/End"
-            android:text="@string/na"
-            android:textSize="30sp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            />
-    </LinearLayout>
+        android:gravity="center"
+        />
 
 
 </LinearLayout>

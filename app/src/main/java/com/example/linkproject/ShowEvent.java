@@ -3,11 +3,8 @@ package com.example.linkproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.widget.TextView;
-
-import org.w3c.dom.Text;
 
 public class ShowEvent extends AppCompatActivity {
 
@@ -25,12 +22,17 @@ public class ShowEvent extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null) {
+            String locationString = getString(R.string.location) + " " + intent.getStringExtra("Location");
+            String descriptionString = getString(R.string.description) + " " + intent.getStringExtra("Description");
+            String dateString = getString(R.string.date) + " " + intent.getStringExtra("Date");
+            String startString = getString(R.string.start) + " " + intent.getStringExtra("Start");
+            String endString = getString(R.string.end) + " " + git aintent.getStringExtra("End");
             title.setText(intent.getStringExtra("Title"));
-            location.setText(intent.getStringExtra("Location"));
-            description.setText(intent.getStringExtra("Description"));
-            date.setText(intent.getStringExtra("Date"));
-            start.setText(intent.getStringExtra("Start"));
-            end.setText(intent.getStringExtra("End"));
+            location.setText(locationString);
+            description.setText(descriptionString);
+            date.setText(dateString);
+            start.setText(startString);
+            end.setText(endString);
         }
     }
 }

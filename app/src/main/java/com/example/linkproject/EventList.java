@@ -1,5 +1,4 @@
 package com.example.linkproject;
-
 /*
   EventList.java
   Luke Mason & JD Gruber
@@ -8,7 +7,6 @@ package com.example.linkproject;
   Class to show the events in the database
   as a list view
 */
-
 import android.content.Intent;
 import android.os.Bundle;
 

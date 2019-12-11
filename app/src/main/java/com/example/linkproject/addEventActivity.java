@@ -7,7 +7,6 @@ package com.example.linkproject;
   Creates an event with defined parameters in edit texts
   and then passes the information back to maps
 */
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;

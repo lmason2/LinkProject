@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LinkProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="na">N/A</string>
+    <string name="description">Description:</string>
+    <string name="location">Location:</string>
+    <string name="date">Date:</string>
+    <string name="start">Start Time:</string>
+    <string name="end">End Time:</string>
+</resources>
